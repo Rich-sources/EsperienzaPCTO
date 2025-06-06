@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperienza PCTO all'estero</title>
+    <link rel="stylesheet" href="conclusioni.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-nav">
+          <ul class="list-nav">
+            <li class="titolo-nav">RICCARDO VERRONE - ITT Allievi Sangallo Terni</li>
+            <li class="elemento-nav"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="elemento-nav"><a href="azienda.html" class="nav-link">Azienda</a></li>
+            <li class="elemento-nav"><a href="esperienza_lavorativa.html" class="nav-link">Esperienza lavorativa</a></li>
+            <li class="elemento-nav"><a href="competenze_acquisite.html" class="nav-link">Competenze acquisite</a></li>
+            <li class="elemento-nav"><a href="strumenti_di_lavoro.html" class="nav-link">Strumenti di lavoro</a></li>
+            <li class="elemento-nav"><a href="conclusioni.html" class="nav-link">Conclusioni</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="contenuto">        
+        <p>
+        Questa esperienza <b>PCTO all'estero</b> presso <b>La Fábrica del Arte</b> mi ha arricchito sotto molti aspetti.<br>
+        Non solo ho acquisito <b>competenze tecniche in informatica</b>, ma ho anche imparato a lavorare in un <b>ambiente internazionale</b> e a gestire <b>sfide quotidiane</b> in modo <b>autonomo</b>.<br>
+        Tornato a casa, mi sento <b>più preparato</b> e <b>motivato</b> ad affrontare il futuro,<br>
+        consapevole di come il <b>mondo del lavoro</b> possa essere <b>stimolante</b> e ricco di <b>opportunità</b>.<br>
+        Sono grato di aver avuto questa <b>chance di crescita</b> e sono impaziente di applicare ciò che ho imparato nelle mie prossime <b>esperienze professionali</b>.
+        </p>
+    </div>
+    <footer>Riccardo Verrone 4BIA 2025</footer>
+    <script>
+      const currentPath = window.location.pathname.split("/").pop();
+      const links = document.querySelectorAll(".nav-link");
+
+      links.forEach(link => {
+        if (link.getAttribute("href") === currentPath) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+</body>
+</html>

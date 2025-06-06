@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esperienza PCTO all'estero</title>
+  <link rel="stylesheet" href="azienda.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container-nav">
+      <ul class="list-nav">
+        <li class="titolo-nav">RICCARDO VERRONE - ITT Allievi Sangallo Terni</li>
+        <li class="elemento-nav"><a href="index.html" class="nav-link">HOME</a></li>
+        <li class="elemento-nav"><a href="azienda.html" class="nav-link">Azienda</a></li>
+        <li class="elemento-nav"><a href="esperienza_lavorativa.html" class="nav-link">Esperienza lavorativa</a></li>
+        <li class="elemento-nav"><a href="competenze_acquisite.html" class="nav-link">Competenze acquisite</a></li>
+        <li class="elemento-nav"><a href="strumenti_di_lavoro.html" class="nav-link">Strumenti di lavoro</a></li>
+        <li class="elemento-nav"><a href="conclusioni.html" class="nav-link">Conclusioni</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="contenuto">
+    <div class="wrapper-immagine">
+      <img class="lavoro" src="Lavoro.png" alt="lavoro">
+    </div>
+    <div class="testo">
+      <p><b>La Fàbrica del Arte</b> è un’azienda che lavora nel settore dell’intrattenimento e dell'organizzazione eventi. Collabora con diversi artisti drag gestendo e promuovendo spettacoli garantendo anche una buona figura sulle loro pagine social.</p>
+      <p>Attività nello specifico:</p>
+      <ul>
+        <li><b>Producciones</b>
+          <ul>
+            <li>Teatrali</li>
+            <li>Musicali</li>
+            <li>Moda</li>
+          </ul>
+        </li>
+        <li><b>Marketing digitale</b>
+          <ul>
+            <li>Sviluppo siti web</li>
+            <li>Sviluppo applicazioni</li>
+            <li>Layout, design e merchandising</li>
+          </ul>
+        </li>
+        <li><b>Eventi</b>
+          <ul>
+            <li>Concerti</li>
+            <li>Feste</li>
+            <li>Eventi privati</li>
+          </ul>
+        </li>
+        <li><b>Studio</b>
+          <ul>
+            <li>Fotografica</li>
+            <li>Videografico</li>
+            <li>Workshop e Formazione</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <footer>Riccardo Verrone 4BIA 2025</footer>
+  <script>
+    const currentPath = window.location.pathname.split("/").pop();
+    const links = document.querySelectorAll(".nav-link");
+
+    links.forEach(link => {
+      if (link.getAttribute("href") === currentPath) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+</body>
+</html>

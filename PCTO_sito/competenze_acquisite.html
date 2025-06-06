@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperienza PCTO all'estero</title>
+    <link rel="stylesheet" href="competenze_acquisite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-nav">
+          <ul class="list-nav">
+            <li class="titolo-nav">RICCARDO VERRONE - ITT Allievi Sangallo Terni</li>
+            <li class="elemento-nav"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="elemento-nav"><a href="azienda.html" class="nav-link">Azienda</a></li>
+            <li class="elemento-nav"><a href="esperienza_lavorativa.html" class="nav-link">Esperienza lavorativa</a></li>
+            <li class="elemento-nav"><a href="competenze_acquisite.html" class="nav-link">Competenze acquisite</a></li>
+            <li class="elemento-nav"><a href="strumenti_di_lavoro.html" class="nav-link">Strumenti di lavoro</a></li>
+            <li class="elemento-nav"><a href="conclusioni.html" class="nav-link">Conclusioni</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    </div>
+    <div class="contenuto">  
+        <div class="wrapper-immagine">
+            <img class="js" src="javascript.jpeg" alt="js">
+        </div>   
+        <div class="wrapper-testo">
+            <h3>COMPETENZE ACQUISITE</h3>
+                <p>
+                Durante questo stage ho avuto l’opportunità di sviluppare <b>competenze preziose</b> sia per il mio <b>futuro lavorativo</b> che per il mio <b>percorso professionale</b>.<br>
+                Sul piano tecnico, ho <b>migliorato le mie abilità</b> nell’uso di <b>HTML</b> e <b>CSS</b> e ho acquisito le basi di <b>JavaScript</b>,<br>
+                che mi hanno permesso di rendere le <b>pagine web più interattive</b>.<br>
+                Ho anche iniziato a esplorare il <b>backend attraverso Python</b>:<br>
+                pur non avendo ancora una padronanza completa, ho assimilato i <b>concetti fondamentali della programmazione server-side</b>.<br>
+                Oltre agli aspetti informatici, ho imparato a <b>gestire le scadenze</b>,<br>
+                a <b>collaborare efficacemente in team</b> e a <b>comunicare in modo chiaro</b> con i colleghi.<br>
+                Questa esperienza mi ha permesso di <b>crescere sia professionalmente che personalmente</b>.
+                </p>
+        </div>    
+    </div>
+    <footer>Riccardo Verrone 4BIA 2025</footer>
+    <script>
+        const currentPath = window.location.pathname.split("/").pop();
+        const links = document.querySelectorAll(".nav-link");
+
+        links.forEach(link => {
+        if (link.getAttribute("href") === currentPath) {
+            link.classList.add("active");
+        }
+        });
+    </script>
+</body>
+</html>

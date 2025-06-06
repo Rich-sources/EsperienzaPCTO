@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperienza PCTO all'estero</title>
+    <link rel="stylesheet" href="esperienza_lavorativa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-nav">
+          <ul class="list-nav">
+            <li class="titolo-nav">RICCARDO VERRONE - ITT Allievi Sangallo Terni</li>
+            <li class="elemento-nav"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="elemento-nav"><a href="azienda.html" class="nav-link">Azienda</a></li>
+            <li class="elemento-nav"><a href="esperienza_lavorativa.html" class="nav-link">Esperienza lavorativa</a></li>
+            <li class="elemento-nav"><a href="competenze_acquisite.html" class="nav-link">Competenze acquisite</a></li>
+            <li class="elemento-nav"><a href="strumenti_di_lavoro.html" class="nav-link">Strumenti di lavoro</a></li>
+            <li class="elemento-nav"><a href="conclusioni.html" class="nav-link">Conclusioni</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="contenuto">
+        <div class="wrapper-immagine">
+            <img class="esperienza" src="esperienza_lavorativa.jpg" alt="esperienza">
+        </div> 
+        <div class="testo">
+            <h3>ESPERIENZA LAVORATIVA</h3>
+            <p>
+            Durante il mio <b>PCTO in Spagna</b> ho svolto un’esperienza lavorativa molto positiva, che mi ha permesso di crescere sia a livello <b>professionale</b> che <b>personale</b>.<br> 
+            Il mio compito principale è stato la <b>creazione di un sito web</b>, un’attività che mi ha permesso di mettere in pratica le <b>competenze acquisite a scuola</b>.<br> 
+            Mi sono <b>ambientato facilmente</b> e ho instaurato un <b>ottimo rapporto</b> sia con i colleghi che con il capo.<br> 
+            L’ambiente era <b>sereno</b> e <b>collaborativo</b>, e questo ha reso il lavoro ancora più stimolante.<br> 
+            Ho anche partecipato a <b>uno spettacolo teatrale</b> organizzato dalla compagnia e ho dato una mano alla <b>console</b>, vivendo un’esperienza diversa ma molto interessante.<br>
+            In generale, questa esperienza mi ha aiutato a <b>migliorare le mie capacità tecniche</b>, a <b>relazionarmi meglio con gli altri</b> e ad affrontare un <b>contesto nuovo</b> con entusiasmo e spirito di adattamento.
+            </p>
+        </div>  
+    </div>
+    <footer>Riccardo Verrone 4BIA 2025</footer>
+    <script>
+        const currentPath = window.location.pathname.split("/").pop();
+        const links = document.querySelectorAll(".nav-link");
+
+        links.forEach(link => {
+        if (link.getAttribute("href") === currentPath) {
+            link.classList.add("active");
+        }
+        });
+    </script>
+</body>
+</html>

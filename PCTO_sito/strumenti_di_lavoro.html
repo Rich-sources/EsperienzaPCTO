@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperienza PCTO all'estero</title>
+    <link rel="stylesheet" href="strumenti_di_lavoro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-nav">
+          <ul class="list-nav">
+            <li class="titolo-nav">RICCARDO VERRONE - ITT Allievi Sangallo Terni</li>
+            <li class="elemento-nav"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="elemento-nav"><a href="azienda.html" class="nav-link">Azienda</a></li>
+            <li class="elemento-nav"><a href="esperienza_lavorativa.html" class="nav-link">Esperienza lavorativa</a></li>
+            <li class="elemento-nav"><a href="competenze_acquisite.html" class="nav-link">Competenze acquisite</a></li>
+            <li class="elemento-nav"><a href="strumenti_di_lavoro.html" class="nav-link">Strumenti di lavoro</a></li>
+            <li class="elemento-nav"><a href="conclusioni.html" class="nav-link">Conclusioni</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="contenuto">   
+        <div class="wrapper-img">
+            <img src="nodejs.png" class="nodejs">
+        </div>     
+        <div class="wrapper-text">
+            <h3>STRUMENTI DI LAVORO</h3>
+            <p>
+            Durante il mio stage, ho utilizzato vari <b>strumenti e tecnologie</b> per sviluppare il progetto.<br> 
+            Tra gli strumenti principali, ho impiegato <b>Visual Studio Code</b>, un editor di codice altamente versatile,<br> 
+            che mi ha permesso di <b>scrivere, modificare e gestire il codice</b> in modo efficiente.<br> 
+            Inoltre, per lo sviluppo lato server e la gestione del progetto, ho utilizzato <b>Node.js</b>,<br> 
+            che mi ha consentito di eseguire <b>codice JavaScript fuori dal browser</b>, migliorando l’<b>interattività</b> e la <b>funzionalità</b> dell’applicazione.<br> 
+            Per quanto riguarda il front-end, ho lavorato con <b>HTML e CSS</b>,<br> 
+            che mi hanno permesso di <b>strutturare</b> e <b>stilizzare</b> le pagine web in modo <b>responsive</b> e <b>visivamente accattivante</b>.<br> 
+            Infine, ho utilizzato <b>JavaScript</b> per implementare la <b>logica interattiva</b> e le <b>dinamiche della pagina</b>, migliorando l’<b>esperienza dell’utente</b>.<br> 
+            Questi strumenti sono stati essenziali nel mio percorso di <b>apprendimento</b> e <b>sviluppo</b> durante lo stage,<br> 
+            permettendomi di migliorare sia le <b>competenze tecniche</b> che la <b>capacità di gestire un progetto web</b> in modo completo e funzionale.<br>
+            </p>
+        </div>
+    </div>
+    <footer>Riccardo Verrone 4BIA 2025</footer>
+    <script>
+        const currentPath = window.location.pathname.split("/").pop();
+        const links = document.querySelectorAll(".nav-link");
+
+        links.forEach(link => {
+        if (link.getAttribute("href") === currentPath) {
+            link.classList.add("active");
+        }
+        });
+    </script>
+</body>
+</html>

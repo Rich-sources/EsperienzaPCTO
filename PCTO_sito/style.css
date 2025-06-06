@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #ececec;
+  min-height: 125vh;
+}
+
+.navbar {
+  background-color: #0b1372;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  color: white;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+
+.container-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.titolo-nav {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.elemento-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+
+.contenuto {
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.malaga {
+  width: 100%;
+  height: auto;
+  filter: brightness(80%);
+  position: absolute;
+  padding: 80px 130px 130px 130px;
+  box-sizing: border-box;
+}
+
+.testo1 {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+}
+
+.testo2 {
+  position: relative;
+  top: 95%;
+  margin: 25px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #474fa5;
+  padding: 10px 20px;
+  text-align: center;
+}
